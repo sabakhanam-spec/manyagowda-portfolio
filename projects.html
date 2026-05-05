@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Manya.D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Manya.D</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html" class="active">Projects</a>
+                    <a href="education.html">Education</a>
+                    <a href="certifications.html">Certifications</a>
+                    <a href="contact.html">Contact</a>
+                    <button class="theme-switch" aria-label="Toggle Theme">🌙</button>
+                    <a href="assets/resume.pdf" class="btn btn-outline" style="padding: 0.6rem 1.5rem;" target="_blank">Resume</a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <div class="section-header reveal">
+                <h2>Featured Projects</h2>
+                <p>A collection of my work and professional experiences.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+                <!-- Project 1: Internship -->
+                <div class="card reveal">
+                    <div style="background: var(--secondary-light); height: 200px; border-radius: 16px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🏢
+                    </div>
+                    <h3 style="margin-bottom: 0.5rem;">Project Intern</h3>
+                    <p style="color: var(--primary); font-weight: 600; margin-bottom: 1rem;">AIKSHETRA TECH SOLUTIONS PVT LTD</p>
+                    <p style="color: var(--text-light); margin-bottom: 1.5rem;">Gained hands-on experience in software development life cycle and participated in various project phases during the internship.</p>
+                    <div style="display: flex; gap: 0.8rem;">
+                        <span style="background: var(--bg); padding: 0.4rem 1rem; border-radius: 100px; font-size: 0.85rem; border: 1px solid var(--glass-border);">Software Dev</span>
+                        <span style="background: var(--bg); padding: 0.4rem 1rem; border-radius: 100px; font-size: 0.85rem; border: 1px solid var(--glass-border);">Internship</span>
+                    </div>
+                </div>
+
+                <!-- Placeholder for more projects -->
+                <div class="card reveal">
+                    <div style="background: var(--secondary-light); height: 200px; border-radius: 16px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🚀
+                    </div>
+                    <h3 style="margin-bottom: 0.5rem;">Upcoming Project</h3>
+                    <p style="color: var(--primary); font-weight: 600; margin-bottom: 1rem;">Personal Project</p>
+                    <p style="color: var(--text-light); margin-bottom: 1.5rem;">An innovative web application currently in the development phase. Stay tuned for updates!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Manya.D. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
